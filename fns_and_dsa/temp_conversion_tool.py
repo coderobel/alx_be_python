@@ -14,5 +14,5 @@ def main():
         result = convert_to_celsius(float(number))
         print(str(number) + unit + "is " + str(result)+ "C")
     else:
-        print("Invalid unit. Please try again.")
+        print("Invalid temperature. Please enter a numeric value.")
 main()
