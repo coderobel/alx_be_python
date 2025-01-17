@@ -13,4 +13,6 @@ def main():
     elif unit == "F":
         result = convert_to_celsius(float(number))
         print(str(number) + unit + "is " + str(result)+ "C")
+    else:
+        print("Invalid unit. Please try again.")
 main()
